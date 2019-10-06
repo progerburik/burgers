@@ -22,7 +22,7 @@ console.log(food.addToBasket());
 const photoEl = document.getElementById('photo-1');
 photoEl.src = food.photoUrl;
 
-const nameEl = document.getElementById('hot dog chiken');
+const nameEl = document.getElementById('hot-dog-chiken');
 nameEl.textContent = food.name;
 
 const food2 = {
@@ -46,5 +46,5 @@ console.log(food2.addToBasket());
 const photoEl2 = document.getElementById('photo-2');
 photoEl2.src = food2.photoUrl;
 
-const nameEl2 = document.getElementById('cheeseburger de luxe');
+const nameEl2 = document.getElementById('cheeseburger-de-luxe');
 nameEl2.textContent = food2.name2;
