@@ -27,7 +27,7 @@ nameEl.textContent = food.name;
 
 const food2 = {
     id: 2382,
-    name2: 'cheeseburger de luxe',
+    name: 'cheeseburger de luxe',
     photoUrl: 'https://s82079.cdn.ngenix.net/MXahUbKht6Q6D2wGRYrAz7nu.png',
     contents: 'пряный горчичный соус, кетчуп, сочное филе в оригинальной панировке, лук, сыр Чеддер, огурцы на пшеничной булочке с кукурузной посыпкой, свежий салат и ломтики помидора',
     protein: '12.6 г',
@@ -37,7 +37,7 @@ const food2 = {
     weight: '226 г',
     price: '124 рубля',
     addToBasket: function ()  {
-        return this.name2 + ' ' + ('в корзине');
+        return this.name + ' ' + ('в корзине');
     },
 };
 
@@ -47,4 +47,4 @@ const photoEl2 = document.getElementById('photo-2');
 photoEl2.src = food2.photoUrl;
 
 const nameEl2 = document.getElementById('cheeseburger-de-luxe');
-nameEl2.textContent = food2.name2;
+nameEl2.textContent = food2.name;
